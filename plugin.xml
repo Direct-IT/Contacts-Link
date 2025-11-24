@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <id>ctclink</id>
+  <name>Contacts Link</name>
+  <version>0.1.0</version>
+  <author>Direct-IT</author>
+  <license>GPL-2.0+</license>
+  <homepage>https://www.direct-it.fr</homepage>
+  <requirements><glpi min="10.0.0" max="10.99.99"/></requirements>
+  <pages>
+    <page>
+      <name>test_contact</name>
+      <title>Test Contacts</title>
+      <file>front/test_contact.php</file>
+      <profile>all</profile>
+    </page>
+  </pages>
+</plugin>

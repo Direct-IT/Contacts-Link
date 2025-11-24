@@ -1,0 +1,21 @@
+/* css/mention_contact.css */
+.ctclink-autocomplete {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 9999;
+}
+
+.ctclink-autocomplete li {
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+.ctclink-autocomplete li:hover {
+    background-color: #eee;
+}
