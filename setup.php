@@ -10,7 +10,7 @@ function plugin_version_ctclink() {
         'requirements'   => [
             'glpi' => [
                 'min' => '10.0.20',
-                'max' => '10.99.99'
+                'max' => '10.0.99'
             ]
 	]
     ];
@@ -37,3 +37,4 @@ function plugin_init_ctclink()
     $PLUGIN_HOOKS['add_javascript']['ctclink'] = ['js/mention_contact.js'];
     //$PLUGIN_HOOKS['add_css']['ctclink']        = ['css/mention_contact.css'];
 }
+
